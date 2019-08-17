@@ -1,0 +1,22 @@
+{
+    "name": "juststeveking/example-component",
+    "type": "library",
+    "description": "An example of a PHP component for training purposes",
+    "homepage": "https://github.com/juststeveking/example-component",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Steve McDougall",
+            "email": "juststevemcd@gmail.com",
+            "homepage": "https://github.com/juststeveking"
+        }
+    ],
+    "require": {
+        "php": ">=7.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "JustSteveKing\\Example\\": "src/"
+        }
+    }
+}
